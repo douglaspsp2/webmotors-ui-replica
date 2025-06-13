@@ -1,19 +1,12 @@
-
 import React from 'react';
-
 const Footer = () => {
-  return (
-    <footer className="bg-gray-900 text-white">
+  return <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <div className="text-2xl font-bold text-webmotors-red mb-4">
-              Webmotors
-            </div>
-            <p className="text-gray-400 text-sm leading-relaxed">
-              O maior portal de carros do Brasil. Encontre o veículo dos seus sonhos.
-            </p>
+            <div className="text-2xl font-bold text-webmotors-red mb-4">CARIOCARROSRJ</div>
+            <p className="text-gray-400 text-sm leading-relaxed">O maior portal de carros do Rio de Janeiro. Encontre o veículo dos seus sonhos.</p>
           </div>
 
           {/* Comprar */}
@@ -90,7 +83,7 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
             <div className="mb-4 md:mb-0">
-              <p>© 2024 Webmotors. Todos os direitos reservados.</p>
+              <p>© 2025 Cariocarrosrj. Todos os direitos reservados.</p>
               <p>CNPJ: 00.000.000/0001-00</p>
             </div>
             <div className="flex space-x-6">
@@ -100,8 +93,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
